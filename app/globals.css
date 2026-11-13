@@ -66,6 +66,9 @@
     linear-gradient(90deg, #080808d1 0%, #08080866 52%, #0808080f 100%),
     linear-gradient(180deg, #0808084d 0%, #0808081f 45%, #080808eb 100%);
   --gradient-primary: linear-gradient(100deg, #00e87a, #38f5a3);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 @layer base {
@@ -127,17 +130,11 @@
     -webkit-backdrop-filter: blur(14px) saturate(140%);
     backdrop-filter: blur(14px) saturate(140%);
     transition:
-      transform 0.22s ease-out,
-      box-shadow 0.22s ease-out,
-      border-color 0.22s ease-out;
+      translate 180ms var(--ease-out),
+      box-shadow 180ms var(--ease-out),
+      border-color 150ms ease;
     position: relative;
     overflow: hidden;
-  }
-
-  .glass-card:hover {
-    border-color: #00e87a59;
-    transform: translateY(-4px);
-    box-shadow: 0 24px 48px -30px #00e87a73;
   }
 
   .card-surface {
@@ -145,16 +142,10 @@
     border: 1px solid var(--color-border);
     box-shadow: var(--shadow-card);
     transition:
-      transform 0.22s ease-out,
-      border-color 0.22s ease-out,
-      background 0.22s ease-out;
+      background-color 150ms ease,
+      border-color 150ms ease;
     position: relative;
     overflow: hidden;
-  }
-
-  .card-surface:hover {
-    background: #0d0d0d;
-    border-color: #00e87a59;
   }
 
   .eyebrow {
@@ -170,15 +161,15 @@
   .gradient-primary {
     background-image: var(--gradient-primary);
     transition:
-      filter 0.18s ease-out,
-      transform 0.18s ease-out,
-      box-shadow 0.18s ease-out;
+      filter 160ms var(--ease-out),
+      translate 160ms var(--ease-out),
+      box-shadow 160ms var(--ease-out),
+      scale 140ms var(--ease-out);
   }
 
-  .gradient-primary:hover {
-    filter: brightness(1.06);
-    transform: translateY(-3px);
-    box-shadow: 0 0 34px #00e87a59;
+  .gradient-primary:active {
+    scale: 0.97;
+    transition-duration: 90ms;
   }
 
   .gradient-hero {
@@ -189,9 +180,9 @@
     opacity: 0;
     will-change: opacity, transform;
     transition:
-      opacity 0.62s cubic-bezier(0.23, 1, 0.32, 1),
-      transform 0.62s cubic-bezier(0.23, 1, 0.32, 1);
-    transform: translateY(22px);
+      opacity 480ms var(--ease-out),
+      transform 480ms var(--ease-out);
+    transform: translateY(16px);
   }
 
   .reveal[data-visible="true"] {
@@ -206,7 +197,7 @@
   }
 
   .line-reveal > span {
-    transition: transform 0.72s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: transform 520ms var(--ease-out);
     display: block;
     transform: translateY(105%);
   }
@@ -217,13 +208,14 @@
 
   .hover-lift {
     transition:
-      transform 0.2s ease-out,
-      box-shadow 0.2s ease-out;
+      translate 160ms var(--ease-out),
+      box-shadow 160ms var(--ease-out),
+      scale 140ms var(--ease-out);
   }
 
-  .hover-lift:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px -24px #000c;
+  a.hover-lift:active,
+  button.hover-lift:active {
+    scale: 0.97;
   }
 
   .field {
@@ -235,30 +227,125 @@
     padding: 0.85rem 0.9rem;
     font-size: 0.95rem;
     transition:
-      border-color 0.24s,
-      box-shadow 0.24s;
+      border-color 180ms ease,
+      box-shadow 180ms ease;
   }
 
   .field:focus {
     border-color: var(--color-primary);
     box-shadow: 0 0 0 1px #00e87a40;
   }
+
+  .site-footer a {
+    transition: color 150ms var(--ease-out);
+  }
 }
 
-@keyframes cw-fade-in {
-  from {
+.hero-slide {
+  transition: opacity 480ms var(--ease-out);
+}
+
+.ticker-item {
+  transition:
+    opacity 300ms var(--ease-out),
+    translate 300ms var(--ease-out);
+}
+
+.mobile-nav {
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity 160ms var(--ease-out),
+    translate 200ms var(--ease-drawer);
+}
+
+.lightbox-backdrop {
+  opacity: 1;
+  transition: opacity 200ms var(--ease-out);
+}
+
+.lightbox-panel {
+  opacity: 1;
+  scale: 1;
+  transition:
+    opacity 200ms var(--ease-out),
+    scale 200ms var(--ease-out);
+}
+
+.status-enter {
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity 220ms var(--ease-out),
+    translate 220ms var(--ease-out);
+}
+
+.faq-answer {
+  opacity: 1;
+  transition: opacity 160ms var(--ease-out);
+}
+
+.pressable {
+  transition-property: color, background-color, border-color, box-shadow, opacity,
+    scale, translate, transform, filter;
+  transition-duration: 150ms;
+  transition-timing-function: var(--ease-out);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pressable:not(:disabled):active {
+  scale: 0.97;
+  transition-duration: 90ms;
+}
+
+@starting-style {
+  .mobile-nav {
+    opacity: 0;
+    translate: 0 -6px;
+  }
+
+  .lightbox-backdrop {
     opacity: 0;
   }
-  to {
-    opacity: 1;
-  }
-}
 
-.animate-in.fade-in {
-  animation: cw-fade-in 0.2s ease-out both;
+  .lightbox-panel {
+    opacity: 0;
+    scale: 0.97;
+  }
+
+  .status-enter {
+    opacity: 0;
+    translate: 0 8px;
+  }
+
+  .faq-answer {
+    opacity: 0;
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .glass-card:hover {
+    border-color: #00e87a59;
+    translate: 0 -4px;
+    box-shadow: 0 24px 48px -30px #00e87a73;
+  }
+
+  .card-surface:hover {
+    background: #0d0d0d;
+    border-color: #00e87a59;
+  }
+
+  .gradient-primary:hover {
+    filter: brightness(1.06);
+    translate: 0 -2px;
+    box-shadow: 0 0 34px #00e87a59;
+  }
+
+  .hover-lift:hover {
+    translate: 0 -4px;
+    box-shadow: 0 20px 40px -24px #000c;
+  }
+
   .cursor-none-root,
   .cursor-none-root * {
     cursor: none !important;
@@ -271,27 +358,52 @@
   }
 
   .reveal,
-  .glass-card,
-  .hover-lift,
-  .gradient-primary,
-  .card-surface,
   .line-reveal > span {
-    transition: none !important;
-  }
-
-  .reveal {
     opacity: 1;
     transform: none;
-  }
-
-  .line-reveal > span {
-    transform: none;
+    transition: none !important;
   }
 
   .glass-card:hover,
   .hover-lift:hover,
   .gradient-primary:hover {
-    transform: none;
+    translate: none;
+  }
+
+  .gradient-primary:active,
+  a.hover-lift:active,
+  button.hover-lift:active,
+  .pressable:not(:disabled):active {
+    scale: 1;
+  }
+
+  .mobile-nav {
+    translate: none;
+    transition: opacity 140ms ease !important;
+  }
+
+  .lightbox-backdrop {
+    transition: opacity 160ms ease !important;
+  }
+
+  .lightbox-panel {
+    scale: 1;
+    transition: opacity 160ms ease !important;
+  }
+
+  .status-enter {
+    translate: none;
+    transition: opacity 160ms ease !important;
+  }
+
+  .faq-answer {
+    transition: opacity 140ms ease !important;
+  }
+
+  .hero-slide,
+  .ticker-item {
+    translate: none;
+    transition: opacity 200ms ease !important;
   }
 }
 

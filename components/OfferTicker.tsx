@@ -42,7 +42,7 @@ export function OfferTicker() {
             <span
               key={item}
               aria-hidden={index !== current}
-              className={`absolute inset-0 truncate font-semibold transition-all duration-500 ease-out ${
+              className={`ticker-item absolute inset-0 truncate font-semibold ${
                 index === current
                   ? "translate-y-0 opacity-100"
                   : "translate-y-4 opacity-0"

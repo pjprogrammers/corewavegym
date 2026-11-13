@@ -28,7 +28,7 @@ export function OffersPage() {
 
       {live ? (
         <>
-          <Reveal delay={100}>
+          <Reveal delay={60}>
             <div className="glass-card mt-8 p-6 sm:p-8">
               <span className="rounded-full bg-primary px-3 py-1 text-[0.62rem] font-black uppercase tracking-[0.14em] text-primary-foreground">
                 {site.offer.badge}
@@ -66,7 +66,7 @@ export function OffersPage() {
           {cards.length > 0 && (
             <div className="mt-10 grid gap-5 sm:grid-cols-2">
               {cards.map((card, index) => (
-                <Reveal key={card.title} delay={(index % 2) * 100}>
+                <Reveal key={card.title} delay={(index % 2) * 60}>
                   <article className="hover-lift group h-full overflow-hidden rounded-2xl border border-border bg-surface">
                     {card.image && (
                       <img
@@ -76,7 +76,7 @@ export function OffersPage() {
                         height={800}
                         loading="lazy"
                         decoding="async"
-                        className="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-[1.04]"
+                        className="aspect-[3/2] w-full object-cover transition-transform duration-200 ease-[var(--ease-out)] group-hover:scale-[1.04]"
                       />
                     )}
                     <div className="p-6">
@@ -93,7 +93,7 @@ export function OffersPage() {
           )}
 
           {steps.length > 0 && (
-            <Reveal delay={100}>
+            <Reveal delay={60}>
               <div className="card-surface mt-10 p-6 sm:p-8">
                 <h2 className="text-2xl">{t("offers.howTitle")}</h2>
                 <ol className="mt-4 space-y-3">
@@ -114,7 +114,7 @@ export function OffersPage() {
           )}
         </>
       ) : (
-        <Reveal delay={100}>
+        <Reveal delay={60}>
           <div className="glass-card mt-8 p-8 text-center">
             <p className="font-display text-5xl text-primary">
               {site.offer.comingSoonTitle}

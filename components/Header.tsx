@@ -18,10 +18,12 @@ const NAV_ITEMS = [
   { to: "/contact", key: "contact" },
 ].filter((item) => item.key !== "offers" || site.offer.showInMenu);
 
-const BASE_LINK =
-  "relative py-1 text-sm font-semibold text-muted-foreground transition-colors after:absolute after:-bottom-0.5 after:left-0 after:h-[3px] after:w-0 after:rounded-full after:bg-primary after:transition-all after:duration-300 hover:text-foreground hover:after:w-full";
+const LINK_BASE =
+  "relative py-1 text-sm font-semibold text-muted-foreground transition-colors after:absolute after:-bottom-0.5 after:left-0 after:h-[3px] after:w-full after:origin-left after:rounded-full after:bg-primary after:transition-transform after:duration-200 after:ease-[var(--ease-out)]";
 
-const ACTIVE_LINK = `${BASE_LINK} relative py-1 text-sm font-semibold text-foreground after:absolute after:-bottom-0.5 after:left-0 after:h-[3px] after:w-full after:rounded-full after:bg-primary`;
+const BASE_LINK = `${LINK_BASE} after:scale-x-0 hover:after:scale-x-100`;
+
+const ACTIVE_LINK = `${LINK_BASE} after:scale-x-100`;
 
 const MOBILE_LINK =
   "block border-b border-border/60 py-3 text-sm font-semibold text-muted-foreground";
@@ -49,7 +51,7 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-colors duration-300 ${
+      className={`sticky top-0 z-50 transition-colors duration-200 ease-[var(--ease-out)] ${
         scrolled
           ? "border-b border-border bg-background md:bg-background/85 md:backdrop-blur-xl"
           : "bg-transparent"
@@ -105,9 +107,10 @@ export function Header() {
           </a>
           <button
             type="button"
-            className="grid h-10 w-10 place-items-center rounded-full border border-border lg:hidden"
+            className="pressable grid h-10 w-10 place-items-center rounded-full border border-border lg:hidden"
             aria-label="Menu"
             aria-expanded={open}
+            aria-controls="mobile-nav"
             onClick={() => setOpen((value) => !value)}
           >
             <MenuIcon open={open} />
@@ -116,7 +119,10 @@ export function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-border bg-background px-4 pb-4 lg:hidden">
+        <nav
+          id="mobile-nav"
+          className="mobile-nav border-t border-border bg-background px-4 pb-4 lg:hidden"
+        >
           {NAV_ITEMS.map((item) => {
             const active = isActive(item.to);
             return (

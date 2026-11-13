@@ -82,7 +82,7 @@ export function HomePage() {
       <section className="border-y border-border bg-surface">
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-12 md:grid-cols-4">
           {site.stats.map((stat, index) => (
-            <Reveal key={stat.id} delay={index * 100} className="text-center">
+            <Reveal key={stat.id} delay={index * 60} className="text-center">
               <CountUp value={stat.value} suffix={stat.suffix} />
               <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                 {statLabels[stat.id]}
@@ -102,7 +102,7 @@ export function HomePage() {
         </Reveal>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
-            <Reveal key={feature.t} delay={(index % 3) * 100}>
+            <Reveal key={feature.t} delay={(index % 3) * 60}>
               <div className="glass-card h-full p-6">
                 <h3 className="text-xl">{feature.t}</h3>
                 <p className="mt-2 text-sm text-muted-foreground">{feature.d}</p>
@@ -120,7 +120,7 @@ export function HomePage() {
           </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {site.classes.map((item, index) => (
-              <Reveal key={item.id} delay={(index % 3) * 100}>
+              <Reveal key={item.id} delay={(index % 3) * 60}>
                 <div className="card-surface hover-lift h-full p-6">
                   <span className="text-3xl" aria-hidden="true">
                     {item.icon}
@@ -151,7 +151,7 @@ export function HomePage() {
         </Reveal>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {site.plans.map((plan, index) => (
-            <Reveal key={plan.id} delay={index * 100}>
+            <Reveal key={plan.id} delay={index * 60}>
               <div
                 className={`glass-card h-full p-7 ${
                   plan.featured ? "border-primary/60 ring-1 ring-primary/40" : ""
@@ -187,7 +187,7 @@ export function HomePage() {
           </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-2">
             {site.reviews.map((review, index) => (
-              <Reveal key={review.name} delay={(index % 2) * 100}>
+              <Reveal key={review.name} delay={(index % 2) * 60}>
                 <figure className="glass-card h-full p-6">
                   <div className="flex text-primary">
                     {Array.from({ length: review.rating }).map((_, star) => (
@@ -213,7 +213,7 @@ export function HomePage() {
           <h2 className="mt-2 mb-5 text-3xl md:text-4xl">{t("home.toolTitle")}</h2>
           <BmiCalculator />
         </Reveal>
-        <Reveal delay={100}>
+        <Reveal delay={60}>
           <h2 className="mb-5 text-3xl md:text-4xl">{t("home.hoursTitle")}</h2>
           <ul className="card-surface divide-y divide-border">
             {site.hours.map((entry) => (

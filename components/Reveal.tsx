@@ -68,9 +68,14 @@ export function CountUp({ value, suffix = "" }: { value: string; suffix?: string
       if (!entry?.isIntersecting) return;
       observer.disconnect();
 
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        setCurrent(numeric);
+        return;
+      }
+
       const start = performance.now();
       const tick = (now: number) => {
-        const progress = Math.min((now - start) / 1100, 1);
+        const progress = Math.min((now - start) / 900, 1);
         setCurrent(numeric * (1 - (1 - progress) ** 3));
         if (progress < 1) requestAnimationFrame(tick);
       };

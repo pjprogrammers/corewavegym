@@ -159,13 +159,15 @@ export function FaqAccordion({ items }: { items: { q: string; a: string }[] }) {
             type="button"
             onClick={() => setOpen(open === index ? null : index)}
             aria-expanded={open === index}
-            className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-sm font-bold hover:bg-secondary/50"
+            className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-sm font-bold transition-colors duration-150 hover:bg-secondary/50"
           >
             {item.q}
             <span className="text-primary">{open === index ? "−" : "+"}</span>
           </button>
           {open === index && (
-            <p className="px-5 pb-5 text-sm text-muted-foreground">{item.a}</p>
+            <p className="faq-answer px-5 pb-5 text-sm text-muted-foreground">
+              {item.a}
+            </p>
           )}
         </div>
       ))}

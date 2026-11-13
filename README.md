@@ -52,6 +52,17 @@ Unknown paths render the home page with home metadata, matching the original hos
 - Per-page metadata, canonical/OG/Twitter tags, business JSON-LD
 - Captcha-equivalent form validation behavior preserved from the original visitor flow
 
+## Motion system
+
+Animations follow the `emilkowalski/skills` design-engineering guidance:
+
+- Shared easing tokens (`--ease-out`, `--ease-in-out`, `--ease-drawer`) with short UI timings (150–200ms)
+- Press feedback (`scale: 0.97`) on buttons, the language switcher, lightbox controls, the menu button, and floating actions
+- Hover lift and underline effects gated behind `(hover: hover) and (pointer: fine)`
+- Opacity/transform crossfades and `@starting-style` entries for the hero, offer ticker, mobile menu, lightbox, FAQ answers, and contact success card
+- Scroll reveals with 60–80ms stagger and a 480ms ease-out
+- Full `prefers-reduced-motion` support: movement is removed while opacity/color feedback remains, counters jump to their final value, and slideshow autoplay is disabled
+
 ## Content and configuration
 
 - `lib/site.json` — business details, plans, hours, images, offer settings, form endpoints
@@ -62,7 +73,7 @@ Unknown paths render the home page with home metadata, matching the original hos
 - `app/` — routes and root layout
 - `components/` — header, footer, sliders, calculators, form, lightbox, icons
 - `public/assets/images/` — original site images
-- `app/globals.css` — original theme tokens, custom utilities, responsive and reduced-motion rules
+- `app/globals.css` — theme and motion tokens, transitions, custom utilities, responsive and reduced-motion rules
 
 ## Notes
 
@@ -74,6 +85,7 @@ Unknown paths render the home page with home metadata, matching the original hos
 
 ## Verification
 
-- All 7 routes are pixel-identical to the original at **1440×900** and **390×844** once images load.
+- All 7 routes visually match the original at **1440×900** and **390×844** once images load. Layout and content are identical; the only differences are minor Next.js image-optimisation noise on the two pages with large photos (under 0.6% of pixels).
 - 31/31 functional checks pass: language switching/persistence, BMI, cost calculator, FAQ, gallery lightbox, mobile menu, client-side navigation, offer expiry state, and mocked contact-form submission.
+- Motion was re-tested in the production build: hero autoplay/pause/resume, navigation transitions, mobile menu, lightbox, FAQ, contact success state, and reduced-motion rendering.
 - No console or page errors in the production build.

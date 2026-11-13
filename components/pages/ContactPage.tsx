@@ -28,7 +28,7 @@ export function ContactPage() {
           <ContactForm />
         </Reveal>
 
-        <Reveal delay={120}>
+        <Reveal delay={80}>
           <div className="card-surface p-6 sm:p-8">
             <h2 className="text-2xl">{t("contact.reachTitle")}</h2>
             <ul className="mt-5 space-y-3 text-sm">

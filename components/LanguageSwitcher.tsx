@@ -19,7 +19,7 @@ export function LanguageSwitcher({ className = "" }: { className?: string }) {
           onClick={() => setLang(code)}
           aria-pressed={code === lang}
           title={String(txFor(code, "langName"))}
-          className={`rounded-full px-2.5 py-1.5 text-xs font-bold transition-colors ${
+          className={`pressable rounded-full px-2.5 py-1.5 text-xs font-bold ${
             code === lang
               ? "bg-primary text-primary-foreground"
               : "text-muted-foreground hover:text-foreground"

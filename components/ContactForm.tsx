@@ -166,7 +166,7 @@ export function ContactForm() {
 
   if (status === "sent") {
     return (
-      <div className="glass-card p-8">
+      <div className="glass-card status-enter p-8">
         <h2 className="text-2xl">{t("contact.sentTitle")}</h2>
         <p className="mt-2 text-sm text-muted-foreground">{t("contact.sentText")}</p>
         <div className="mt-6 flex flex-wrap gap-3">

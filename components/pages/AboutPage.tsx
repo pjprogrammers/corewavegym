@@ -28,7 +28,7 @@ export function AboutPage() {
             {t("common.callNow")}
           </a>
         </Reveal>
-        <Reveal delay={120}>
+        <Reveal delay={80}>
           <HeroSlider
             slides={site.images.about.map((src) => ({
               src,
@@ -42,7 +42,7 @@ export function AboutPage() {
       <section className="border-y border-border bg-surface">
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-4 py-12 md:grid-cols-4">
           {site.stats.map((stat, index) => (
-            <Reveal key={stat.id} delay={index * 100} className="text-center">
+            <Reveal key={stat.id} delay={index * 60} className="text-center">
               <CountUp value={stat.value} suffix={stat.suffix} />
               <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                 {statLabels[stat.id]}
@@ -93,7 +93,7 @@ export function AboutPage() {
               ))}
             </ul>
           </Reveal>
-          <Reveal delay={120}>
+          <Reveal delay={80}>
             <iframe
               src={site.business.mapsEmbed}
               title={`${site.business.name} location map`}

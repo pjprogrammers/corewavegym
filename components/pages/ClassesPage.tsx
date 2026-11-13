@@ -24,7 +24,7 @@ export function ClassesPage() {
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {site.classes.map((item, index) => (
-            <Reveal key={item.id} delay={(index % 3) * 100}>
+            <Reveal key={item.id} delay={(index % 3) * 60}>
               <article className="glass-card flex h-full flex-col p-6">
                 <span className="text-3xl" aria-hidden="true">
                   {item.icon}

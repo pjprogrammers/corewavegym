@@ -75,7 +75,7 @@ export function HeroSlider({
           decoding="async"
           style={{ objectPosition }}
           fetchPriority={eager && index === 0 ? "high" : "auto"}
-          className={`absolute inset-0 h-full w-full object-cover will-change-[opacity] transition-opacity duration-700 ease-out ${
+          className={`hero-slide absolute inset-0 h-full w-full object-cover ${
             index === current ? "opacity-100" : "opacity-0"
           }`}
         />
@@ -89,7 +89,7 @@ export function HeroSlider({
               type="button"
               aria-label={`Photo ${index + 1}`}
               onClick={() => setCurrent(index)}
-              className={`h-2.5 rounded-full transition-all duration-300 ${
+              className={`h-2.5 rounded-full transition-[width,background-color] duration-200 ease-[var(--ease-out)] ${
                 index === current ? "w-7 bg-primary" : "w-2.5 bg-white/50"
               }`}
             />

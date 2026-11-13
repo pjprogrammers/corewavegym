@@ -58,19 +58,19 @@ function Lightbox({
       aria-modal="true"
       aria-label={photo.alt}
       onClick={onClose}
-      className="fixed inset-0 z-[60] flex items-center justify-center bg-black/85 p-4 backdrop-blur-sm animate-in fade-in duration-200"
+      className="lightbox-backdrop fixed inset-0 z-[60] flex items-center justify-center bg-black/85 p-4 backdrop-blur-sm"
     >
       <img
         src={photo.src}
         alt={photo.alt}
         onClick={(event) => event.stopPropagation()}
-        className="max-h-[82vh] max-w-full rounded-xl object-contain shadow-2xl"
+        className="lightbox-panel max-h-[82vh] max-w-full rounded-xl object-contain shadow-2xl"
       />
       <button
         type="button"
         aria-label={t("gallery.close")}
         onClick={onClose}
-        className="glass absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-full text-white"
+        className="pressable glass absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-full text-white"
       >
         <CloseIcon />
       </button>
@@ -81,7 +81,7 @@ function Lightbox({
           event.stopPropagation();
           move(-1);
         }}
-        className="glass absolute left-3 top-1/2 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full text-white"
+        className="pressable glass absolute left-3 top-1/2 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full text-white"
       >
         <ChevronLeftIcon />
       </button>
@@ -92,7 +92,7 @@ function Lightbox({
           event.stopPropagation();
           move(1);
         }}
-        className="glass absolute right-3 top-1/2 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full text-white"
+        className="pressable glass absolute right-3 top-1/2 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full text-white"
       >
         <ChevronRightIcon />
       </button>
@@ -122,7 +122,7 @@ export function GalleryPage() {
 
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {photos.map((photo, photoIndex) => (
-          <Reveal key={photo.src} delay={(photoIndex % 3) * 100}>
+          <Reveal key={photo.src} delay={(photoIndex % 3) * 60}>
             <button
               type="button"
               onClick={() => setIndex(photoIndex)}
@@ -135,7 +135,7 @@ export function GalleryPage() {
                 height={853}
                 loading={photoIndex < 3 ? "eager" : "lazy"}
                 decoding="async"
-                className="aspect-[3/2] w-full object-cover transition-transform duration-300 group-hover:scale-[1.04]"
+                className="aspect-[3/2] w-full object-cover transition-transform duration-200 ease-[var(--ease-out)] group-hover:scale-[1.04]"
               />
             </button>
           </Reveal>

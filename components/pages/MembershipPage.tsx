@@ -29,7 +29,7 @@ export function MembershipPage() {
             const tag = tx(`membership.planTags.${plan.id}`) as string | undefined;
 
             return (
-              <Reveal key={plan.id} delay={index * 100}>
+              <Reveal key={plan.id} delay={index * 60}>
                 <div
                   className={`glass-card flex h-full flex-col p-7 ${
                     plan.featured
@@ -112,7 +112,7 @@ export function MembershipPage() {
               </Link>
             </div>
           </Reveal>
-          <Reveal delay={120}>
+          <Reveal delay={80}>
             <MembershipCalculator />
           </Reveal>
         </div>
