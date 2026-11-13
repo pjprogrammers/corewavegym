@@ -1,0 +1,246 @@
+{
+  "business": {
+    "name": "Core Wave Gym",
+    "shortName": "CORE WAVE",
+    "phone": "8278140828",
+    "phoneAlt": "8287140828",
+    "landline": "011-47015163",
+    "whatsapp": "918278140828",
+    "email": "corewavegymbhajanpura@gmail.com",
+    "instagram": "https://www.instagram.com/corewavegymbhajanpura",
+    "facebook": "https://www.facebook.com/",
+    "address": "613, Main Road, Near Bank of Baroda, 2nd Floor, Opposite Bhajanpura, Metro Station Gate No. 2, Delhi 110053",
+    "locality": "Bhajanpura",
+    "city": "Delhi",
+    "postalCode": "110053",
+    "mapsLink": "https://maps.app.goo.gl/zMnpwwriRri9rwwd6",
+    "mapsEmbed": "https://www.google.com/maps?q=Core+Wave+Gym+613+Main+Road+Bhajanpura+Delhi+110053&output=embed",
+    "rating": "4.2",
+    "reviewCount": "70+",
+    "geo": {
+      "lat": "28.6994",
+      "lng": "77.2705"
+    },
+    "areas": [
+      "Bhajanpura",
+      "Yamuna Vihar",
+      "Bhajanpura Metro Station",
+      "Khajuri Khas",
+      "Gokulpuri",
+      "Maujpur",
+      "Brahmpuri",
+      "Kartar Nagar",
+      "Ghonda",
+      "Subhash Vihar",
+      "Shastri Park",
+      "Seelampur",
+      "Babarpur",
+      "Dayalpur",
+      "New Usmanpur",
+      "Jafrabad"
+    ],
+    "tags": [
+      "gym near me",
+      "best gym in Bhajanpura",
+      "gym in Yamuna Vihar",
+      "ladies gym near me",
+      "24 hour gym Delhi",
+      "personal trainer Bhajanpura",
+      "weight loss gym Delhi 110053",
+      "cheap gym membership near me",
+      "cardio and strength gym North East Delhi",
+      "fitness centre near Bhajanpura Metro"
+    ]
+  },
+  "offer": {
+    "enabled": true,
+    "showInMenu": true,
+    "showTicker": true,
+    "endsAt": "2026-11-10T23:59:59+05:30",
+    "badge": "Limited time offer",
+    "eyebrow": "Festival special",
+    "title": "Diwali Dhamaka — 20% OFF yearly plan",
+    "text": "Yearly membership par 20% chhoot + free diet plan aur 1 free personal training session. Offer sirf timer khatam hone tak.",
+    "ctaLabel": "Claim this offer",
+    "comingSoonTitle": "Coming soon",
+    "comingSoonText": "Abhi koi offer live nahi hai. Eid, Diwali aur New Year par special deals aati hain — WhatsApp par follow kariye.",
+    "tickerItems": [
+      "Diwali Dhamaka — 20% OFF yearly plan",
+      "Zero joining fee",
+      "Free diet consultation",
+      "1 free personal training session"
+    ],
+    "cards": [
+      {
+        "title": "Yearly plan 20% OFF",
+        "desc": "₹7,500 ka yearly plan sirf ₹6,000 me — poore saal ke liye.",
+        "tag": "Best value",
+        "image": "/assets/images/offer-festive.webp"
+      },
+      {
+        "title": "Zero joining fee",
+        "desc": "Naye members ka ₹500 joining charge poora maaf — offer ke andar.",
+        "tag": "New members",
+        "image": "/assets/images/offer-membership.webp"
+      }
+    ]
+  },
+  "forms": {
+    "googleSheetsWebhook": "YAHAN APNA GOOGLE SHEETS APPS SCRIPT URL PASTE KAREIN",
+    "departmentWebhooks": {
+      "membership": "",
+      "personal-training": "",
+      "ladies-batch": "",
+      "general": ""
+    },
+    "otpWebhook": "",
+    "otpRequired": false,
+    "web3formsKey": "dd0c9ccf-0e2f-4eb1-83a2-8577c73f9652",
+    "emailSubject": "New enquiry from Core Wave Gym website"
+  },
+  "images": {
+    "logo": "/assets/images/logo.webp",
+    "hero": [
+      "/assets/images/hero-main-hall.webp",
+      "/assets/images/hero-neon-entrance.webp",
+      "/assets/images/hero-locker-hall.webp"
+    ],
+    "about": [
+      "/assets/images/exterior-signage.webp",
+      "/assets/images/locker-room.webp",
+      "/assets/images/gym-floor.webp"
+    ],
+    "gallery": [
+      "/assets/images/hero-main-hall.webp",
+      "/assets/images/hero-neon-entrance.webp",
+      "/assets/images/hero-locker-hall.webp",
+      "/assets/images/exterior-signage.webp",
+      "/assets/images/strength-machines.webp",
+      "/assets/images/benches-area.webp",
+      "/assets/images/cardio-zone.webp",
+      "/assets/images/changing-room.webp",
+      "/assets/images/ladies-zone.webp",
+      "/assets/images/core-corner.webp"
+    ]
+  },
+  "plans": [
+    {
+      "id": "monthly",
+      "price": 900,
+      "months": 1,
+      "featured": false
+    },
+    {
+      "id": "quarterly",
+      "price": 2400,
+      "months": 3,
+      "featured": true
+    },
+    {
+      "id": "yearly",
+      "price": 7500,
+      "months": 12,
+      "featured": false
+    }
+  ],
+  "classes": [
+    {
+      "id": "strength",
+      "icon": "🏋️"
+    },
+    {
+      "id": "cardio",
+      "icon": "🏃"
+    },
+    {
+      "id": "functional",
+      "icon": "🤸"
+    },
+    {
+      "id": "personal",
+      "icon": "🎯"
+    },
+    {
+      "id": "ladies",
+      "icon": "💃"
+    },
+    {
+      "id": "diet",
+      "icon": "🥗"
+    }
+  ],
+  "hours": [
+    {
+      "id": "mon",
+      "time": "5:00 AM – 10:30 PM"
+    },
+    {
+      "id": "tue",
+      "time": "5:00 AM – 10:30 PM"
+    },
+    {
+      "id": "wed",
+      "time": "5:00 AM – 10:30 PM"
+    },
+    {
+      "id": "thu",
+      "time": "5:00 AM – 10:30 PM"
+    },
+    {
+      "id": "fri",
+      "time": "5:00 AM – 10:30 PM"
+    },
+    {
+      "id": "sat",
+      "time": "5:00 AM – 10:30 PM"
+    },
+    {
+      "id": "sun",
+      "time": "8:00 AM – 12:00 PM"
+    }
+  ],
+  "stats": [
+    {
+      "id": "rating",
+      "value": "4.2",
+      "suffix": "★"
+    },
+    {
+      "id": "equipment",
+      "value": "60",
+      "suffix": "+"
+    },
+    {
+      "id": "hours",
+      "value": "17",
+      "suffix": "hrs"
+    },
+    {
+      "id": "floor",
+      "value": "2",
+      "suffix": "nd"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Rahul Verma",
+      "rating": 5,
+      "text": "Corewave Gym is awesome! It's super clean, the equipment is top-notch, and the vibe really gets you motivated to work out. Best spot in the Bhajanpura area."
+    },
+    {
+      "name": "Aman Singh",
+      "rating": 5,
+      "text": "The trainers are super friendly and actually know what they're doing, whether you need help with a machine or checking your form."
+    },
+    {
+      "name": "Neha Chauhan",
+      "rating": 5,
+      "text": "Totally affordable and very well maintained. Ladies timing is comfortable and the staff is respectful."
+    },
+    {
+      "name": "Deepak Kumar",
+      "rating": 4,
+      "text": "Big floor, good machines, AC and music keep the energy high. Right next to the metro gate so it is easy to reach."
+    }
+  ]
+}

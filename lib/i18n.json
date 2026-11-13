@@ -1,0 +1,1049 @@
+{
+  "en": {
+    "langName": "English",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "membership": "Membership",
+      "classes": "Classes",
+      "gallery": "Gallery",
+      "contact": "Contact",
+      "offers": "Offers"
+    },
+    "common": {
+      "callNow": "Call now",
+      "whatsapp": "WhatsApp us",
+      "getDirections": "Get directions",
+      "joinNow": "Join now",
+      "viewPlans": "View plans",
+      "openToday": "Open today",
+      "readMore": "Read more",
+      "month": "month",
+      "months": "months",
+      "perMonth": "per month",
+      "save": "Save"
+    },
+    "hero": {
+      "badge": "Bhajanpura, Delhi · Metro Gate No. 2",
+      "title": "Ride the wave of strength",
+      "titleAccent": "with CORE WAVE",
+      "text": "A big, clean, fully-equipped gym on the 2nd floor above Bank of Baroda — strength, cardio, functional training and personal coaching from 5 AM to 10:30 PM.",
+      "trust": "Rated {rating}★ by {reviews} members on Google"
+    },
+    "home": {
+      "whyEyebrow": "Why Core Wave",
+      "whyTitle": "Built for people who are serious about results",
+      "whyText": "Top-notch machines, honest pricing and trainers who actually watch your form.",
+      "features": [
+        {
+          "t": "Clean and hygienic floor",
+          "d": "Daily cleaning, sanitised equipment and fresh washrooms with lockers."
+        },
+        {
+          "t": "Top-notch equipment",
+          "d": "Plate-loaded strength machines, free weights, benches and cardio row."
+        },
+        {
+          "t": "Trainers who guide you",
+          "d": "Friendly certified coaches help with every machine and correct your form."
+        },
+        {
+          "t": "Genuinely affordable",
+          "d": "Best value membership in the Bhajanpura and Yamuna Vihar area."
+        },
+        {
+          "t": "17 hours open daily",
+          "d": "5:00 AM to 10:30 PM, so your shift never breaks your routine."
+        },
+        {
+          "t": "Right at the metro",
+          "d": "Metro station gate no. 2, main road — walk in on your way home."
+        }
+      ],
+      "classesEyebrow": "Training",
+      "classesTitle": "What you can train here",
+      "planEyebrow": "Membership",
+      "planTitle": "Simple plans, no hidden charges",
+      "reviewEyebrow": "Google reviews",
+      "reviewTitle": "What our members say",
+      "toolEyebrow": "Free tool",
+      "toolTitle": "Check your BMI before you start",
+      "ctaTitle": "Your first workout is on us",
+      "ctaText": "Walk in for a free trial session, see the floor, meet the trainers and then decide.",
+      "hoursTitle": "Opening hours",
+      "areasEyebrow": "Areas we serve",
+      "areasTitle": "A gym near you in North East Delhi",
+      "areasText": "Core Wave Gym is a 5–10 minute ride from these areas. Walk in from Bhajanpura Metro Gate No. 2 — we are right opposite, on the 2nd floor."
+    },
+    "about": {
+      "eyebrow": "About the gym",
+      "title": "A neighbourhood gym with big-gym equipment",
+      "p1": "Core Wave Gym sits on the main road in Bhajanpura, right beside metro station gate no. 2 and above Bank of Baroda. Two floors of training space, mirrored walls, strong lighting and a layout that never feels crowded.",
+      "p2": "We keep everything simple: clean floors, well-maintained machines, honest membership rates and trainers who stay on the floor with you instead of sitting at the desk.",
+      "p3": "Whether it is your first month in a gym or your tenth year of lifting, you get a plan, guidance on form and a room full of people chasing the same thing.",
+      "amenitiesTitle": "Facilities inside",
+      "amenities": [
+        "Air-cooled main training floor",
+        "Plate-loaded strength section",
+        "Free weights and bench area",
+        "Cardio and conditioning zone",
+        "Personal lockers",
+        "Clean washroom and changing area",
+        "Music system and mirrored walls",
+        "Drinking water station",
+        "Separate ladies timing"
+      ],
+      "locationTitle": "Easy to reach"
+    },
+    "membership": {
+      "eyebrow": "Membership",
+      "title": "Pick a plan and start today",
+      "text": "All plans include full floor access, cardio, guidance on every machine and a personalised workout plan.",
+      "priceNote": "Prices shown are indicative — please confirm the running rate on call or WhatsApp.",
+      "includesTitle": "Every plan includes",
+      "includes": [
+        "Full gym floor and cardio access",
+        "Workout plan made for your goal",
+        "Form correction on the floor",
+        "Locker and changing room",
+        "Progress check-in every month"
+      ],
+      "faqTitle": "Frequently asked questions",
+      "calcTitle": "Cost calculator",
+      "calcText": "Choose a plan and add-ons to see your exact cost.",
+      "planNames": {
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "yearly": "Yearly"
+      },
+      "planTags": {
+        "quarterly": "Most popular",
+        "yearly": "Best value"
+      },
+      "planPerks": {
+        "monthly": [
+          "Full floor access",
+          "Workout plan",
+          "Locker"
+        ],
+        "quarterly": [
+          "Everything in monthly",
+          "Monthly progress check",
+          "Diet guidance"
+        ],
+        "yearly": [
+          "Everything in quarterly",
+          "2 personal training sessions",
+          "Lowest per-month rate"
+        ]
+      }
+    },
+    "classes": {
+      "eyebrow": "Training options",
+      "title": "Train the way you like",
+      "text": "Strength, cardio, functional work, personal coaching and separate ladies timing — all under one membership.",
+      "items": {
+        "strength": {
+          "n": "Strength training",
+          "d": "Plate-loaded machines, free weights, squat and bench stations for real strength gains.",
+          "l": "All levels"
+        },
+        "cardio": {
+          "n": "Cardio & fat loss",
+          "d": "Treadmills, cycles and conditioning circuits planned around your fat-loss goal.",
+          "l": "Beginner friendly"
+        },
+        "functional": {
+          "n": "Functional training",
+          "d": "Mobility, core and full-body circuits that make everyday movement easier.",
+          "l": "All levels"
+        },
+        "personal": {
+          "n": "Personal training",
+          "d": "One-to-one coaching with a dedicated trainer, plan and weekly review.",
+          "l": "On request"
+        },
+        "ladies": {
+          "n": "Ladies batch",
+          "d": "Comfortable separate timing with guidance from our women-friendly staff.",
+          "l": "Dedicated timing"
+        },
+        "diet": {
+          "n": "Diet guidance",
+          "d": "Simple home-food based diet plans that fit your budget and routine.",
+          "l": "Included in plans"
+        }
+      },
+      "scheduleTitle": "Daily timings"
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Inside Core Wave Gym",
+      "text": "Real photos of our floor, equipment and locker area. Tap any photo to see it bigger.",
+      "close": "Close",
+      "prev": "Previous photo",
+      "next": "Next photo",
+      "alts": {
+        "/assets/images/hero-main-hall.webp": "Core Wave Gym main training floor with strength machines, benches and mirrored walls",
+        "/assets/images/hero-neon-entrance.webp": "Core Wave Gym green neon entrance signage with Olympic barbell and weight plates",
+        "/assets/images/hero-locker-hall.webp": "Locker wall and open changing area at Core Wave Gym",
+        "/assets/images/exterior-signage.webp": "Core Wave Gym green neon signboard on the main road in Bhajanpura, Delhi",
+        "/assets/images/neon-wall.webp": "Core Wave neon logo wall with barbell and weight plates",
+        "/assets/images/gym-floor.webp": "Main training floor with strength machines and mirrored walls",
+        "/assets/images/strength-machines.webp": "Plate-loaded strength machines and leg press section",
+        "/assets/images/benches-area.webp": "Adjustable benches and dumbbell area at Core Wave Gym",
+        "/assets/images/locker-room.webp": "Personal lockers and changing area for members",
+        "/assets/images/changing-room.webp": "Clean changing room with personal lockers, bench and mirrors",
+        "/assets/images/ladies-zone.webp": "Separate ladies zone with light dumbbells, spin bikes and yoga mats",
+        "/assets/images/core-corner.webp": "Abs and core corner with decline bench, ab roller and pull-up station"
+      }
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Talk to us or just walk in",
+      "text": "Send this form, WhatsApp us or call — we reply the same day.",
+      "formTitle": "Send an enquiry",
+      "name": "Your name",
+      "phone": "Mobile number",
+      "email": "Email",
+      "service": "What do you need?",
+      "message": "Message",
+      "send": "Send enquiry",
+      "sending": "Sending…",
+      "sentTitle": "Thank you!",
+      "sentText": "Your enquiry has reached us. We will call you back shortly.",
+      "waFallback": "Send on WhatsApp instead",
+      "services": {
+        "membership": "Membership enquiry",
+        "personal-training": "Personal training",
+        "ladies-batch": "Ladies batch",
+        "general": "Something else"
+      },
+      "errors": {
+        "name": "Please enter your name (2–60 letters).",
+        "phone": "Please enter a valid 10-digit mobile number.",
+        "email": "Please enter a valid email address.",
+        "message": "Please write a short message (5–1000 characters).",
+        "failed": "Could not send right now. Please WhatsApp or call us."
+      },
+      "hoursTitle": "Opening hours",
+      "reachTitle": "Reach us",
+      "otp": {
+        "title": "Verify your email",
+        "text": "We will email you a 6-digit code. Enter it to confirm your email, then send the enquiry.",
+        "send": "Send code",
+        "sending": "Sending code...",
+        "resend": "Resend code",
+        "sent": "Code sent — check your inbox (and spam).",
+        "codeLabel": "6-digit code",
+        "verify": "Verify",
+        "verifying": "Verifying...",
+        "verified": "Email verified",
+        "badCode": "Code is wrong or expired. Try again.",
+        "needEmail": "Please enter a valid email first.",
+        "needVerify": "Please verify your email before sending.",
+        "failed": "Could not send the code. Please WhatsApp us instead."
+      }
+    },
+    "faqs": [
+      {
+        "q": "Where exactly is Core Wave Gym?",
+        "a": "613, Main Road, Bhajanpura — 2nd floor above Bank of Baroda, right next to metro station gate no. 2, opposite Bhajanpura."
+      },
+      {
+        "q": "Can I try before joining?",
+        "a": "Yes. Walk in during opening hours for a free trial session and a floor tour."
+      },
+      {
+        "q": "Is there a separate ladies timing?",
+        "a": "Yes, we run a comfortable separate ladies timing. Call us for the current slot."
+      },
+      {
+        "q": "Do you provide a diet plan?",
+        "a": "Yes, simple home-food based diet guidance is included with quarterly and yearly plans."
+      },
+      {
+        "q": "Is personal training available?",
+        "a": "Yes, one-to-one personal training is available on request at an add-on charge."
+      },
+      {
+        "q": "What are the payment options?",
+        "a": "Cash, UPI and cards are accepted at the reception."
+      }
+    ],
+    "statLabels": {
+      "rating": "Google rating",
+      "equipment": "Machines & stations",
+      "hours": "Open every day",
+      "floor": "Floor, main road"
+    },
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "footer": {
+      "about": "Ride the wave of strength with Core Wave — a clean, affordable, fully-equipped gym in Bhajanpura, Delhi.",
+      "pages": "Pages",
+      "contact": "Contact",
+      "rights": "All rights reserved."
+    },
+    "tools": {
+      "bmiTitle": "BMI calculator",
+      "bmiText": "Know your starting point in five seconds.",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "calculate": "Calculate",
+      "cats": {
+        "under": "Underweight",
+        "healthy": "Healthy",
+        "over": "Overweight",
+        "obese": "Obese"
+      },
+      "tips": {
+        "under": "Our strength and nutrition plan will help you add healthy weight.",
+        "healthy": "Great range — strength and conditioning will keep you here.",
+        "over": "Cardio plus a simple diet plan can bring this down in three months.",
+        "obese": "Start with a beginner functional batch and guided diet plan."
+      },
+      "plan": "Plan",
+      "ptSessions": "Personal training sessions",
+      "dietPlan": "Add diet plan",
+      "total": "Total",
+      "effective": "Effective per month"
+    },
+    "meta": {
+      "homeTitle": "Core Wave Gym Bhajanpura | Best Gym in Delhi 110053",
+      "homeDesc": "Core Wave Gym, Bhajanpura Delhi — clean, affordable gym with top-notch equipment, trainers and ladies batch. Open 5 AM–10:30 PM. Call 8278140828.",
+      "aboutTitle": "About Core Wave Gym | Gym Near Bhajanpura Metro, Delhi",
+      "aboutDesc": "Inside Core Wave Gym Bhajanpura: air-cooled floor, plate-loaded strength section, lockers, ladies timing and friendly certified trainers.",
+      "membershipTitle": "Gym Membership Fees in Bhajanpura | Core Wave Gym",
+      "membershipDesc": "Monthly, quarterly and yearly gym membership plans at Core Wave Gym Bhajanpura, Delhi. Free trial session, no hidden charges.",
+      "classesTitle": "Strength, Cardio & Ladies Batch | Core Wave Gym Bhajanpura",
+      "classesDesc": "Strength training, cardio, functional training, personal coaching and a separate ladies batch at Core Wave Gym, Bhajanpura Delhi.",
+      "galleryTitle": "Photo Gallery | Core Wave Gym Bhajanpura, Delhi",
+      "galleryDesc": "Real photos of the training floor, strength machines, benches and locker room at Core Wave Gym, Bhajanpura Delhi.",
+      "contactTitle": "Contact Core Wave Gym Bhajanpura | Call 8278140828",
+      "contactDesc": "Address, map, timings and enquiry form for Core Wave Gym, 613 Main Road Bhajanpura, Delhi 110053. Call or WhatsApp 8278140828.",
+      "offersTitle": "Diwali & Festival Gym Offers | Core Wave Gym Bhajanpura",
+      "offersDesc": "Running membership offers and festival deals at Core Wave Gym, Bhajanpura Delhi. Limited-time discounts with live countdown."
+    },
+    "offers": {
+      "days": "Days",
+      "hours": "Hours",
+      "mins": "Mins",
+      "secs": "Secs",
+      "ended": "Offer ended",
+      "liveTitle": "Running offers",
+      "viewOffers": "View offers",
+      "howTitle": "How to claim",
+      "howSteps": [
+        "Call or WhatsApp us and say the offer name",
+        "Visit the gym and complete a free trial session",
+        "Pay the discounted fee before the timer ends"
+      ]
+    }
+  },
+  "hi": {
+    "langName": "हिन्दी",
+    "nav": {
+      "home": "होम",
+      "about": "हमारे बारे में",
+      "membership": "मेम्बरशिप",
+      "classes": "ट्रेनिंग",
+      "gallery": "गैलरी",
+      "contact": "संपर्क",
+      "offers": "ऑफर"
+    },
+    "common": {
+      "callNow": "अभी कॉल करें",
+      "whatsapp": "व्हाट्सएप करें",
+      "getDirections": "रास्ता देखें",
+      "joinNow": "अभी जॉइन करें",
+      "viewPlans": "प्लान देखें",
+      "openToday": "आज खुला है",
+      "readMore": "और पढ़ें",
+      "month": "महीना",
+      "months": "महीने",
+      "perMonth": "प्रति महीना",
+      "save": "बचत"
+    },
+    "hero": {
+      "badge": "भजनपुरा, दिल्ली · मेट्रो गेट नंबर 2",
+      "title": "ताकत की लहर पर सवार हों",
+      "titleAccent": "CORE WAVE के साथ",
+      "text": "बैंक ऑफ बड़ौदा के ऊपर दूसरी मंज़िल पर बड़ा, साफ़ और पूरी मशीनों से लैस जिम — स्ट्रेंथ, कार्डियो, फंक्शनल ट्रेनिंग और पर्सनल कोचिंग, सुबह 5 से रात 10:30 तक।",
+      "trust": "गूगल पर {reviews} मेम्बर्स ने {rating}★ रेटिंग दी है"
+    },
+    "home": {
+      "whyEyebrow": "क्यों Core Wave",
+      "whyTitle": "उनके लिए बना है जिन्हें रिज़ल्ट चाहिए",
+      "whyText": "बढ़िया मशीनें, ईमानदार फीस और ऐसे ट्रेनर जो आपकी फॉर्म पर नज़र रखते हैं।",
+      "features": [
+        {
+          "t": "साफ़-सुथरा फ़्लोर",
+          "d": "रोज़ सफ़ाई, सैनिटाइज़ मशीनें और लॉकर के साथ साफ़ वॉशरूम।"
+        },
+        {
+          "t": "बेहतरीन इक्विपमेंट",
+          "d": "प्लेट-लोडेड स्ट्रेंथ मशीनें, फ्री वेट्स, बेंच और कार्डियो सेक्शन।"
+        },
+        {
+          "t": "गाइड करने वाले ट्रेनर",
+          "d": "सर्टिफाइड ट्रेनर हर मशीन समझाते हैं और फॉर्म ठीक कराते हैं।"
+        },
+        {
+          "t": "जेब पर हल्का",
+          "d": "भजनपुरा और यमुना विहार इलाके में सबसे अच्छी वैल्यू।"
+        },
+        {
+          "t": "रोज़ 17 घंटे खुला",
+          "d": "सुबह 5:00 से रात 10:30 — किसी भी शिफ्ट में आइए।"
+        },
+        {
+          "t": "मेट्रो के पास",
+          "d": "मेट्रो स्टेशन गेट नंबर 2, मेन रोड — घर लौटते वक़्त आ जाइए।"
+        }
+      ],
+      "classesEyebrow": "ट्रेनिंग",
+      "classesTitle": "यहाँ आप क्या-क्या कर सकते हैं",
+      "planEyebrow": "मेम्बरशिप",
+      "planTitle": "आसान प्लान, कोई छुपा चार्ज नहीं",
+      "reviewEyebrow": "गूगल रिव्यू",
+      "reviewTitle": "मेम्बर्स क्या कहते हैं",
+      "toolEyebrow": "फ्री टूल",
+      "toolTitle": "शुरू करने से पहले अपना BMI देखें",
+      "ctaTitle": "पहली वर्कआउट हमारी तरफ़ से",
+      "ctaText": "फ्री ट्रायल सेशन के लिए आइए, फ़्लोर देखिए, ट्रेनर से मिलिए और फिर फ़ैसला कीजिए।",
+      "hoursTitle": "खुलने का समय",
+      "areasEyebrow": "हमारे नज़दीकी इलाके",
+      "areasTitle": "नॉर्थ ईस्ट दिल्ली में आपके पास जिम",
+      "areasText": "कोर वेव जिम इन इलाकों से सिर्फ़ 5–10 मिनट दूर है। भजनपुरा मेट्रो गेट नंबर 2 के ठीक सामने, दूसरी मंज़िल पर।"
+    },
+    "about": {
+      "eyebrow": "जिम के बारे में",
+      "title": "मोहल्ले का जिम, बड़े जिम की मशीनें",
+      "p1": "Core Wave Gym भजनपुरा की मेन रोड पर है — मेट्रो स्टेशन गेट नंबर 2 के बिल्कुल पास और बैंक ऑफ बड़ौदा के ऊपर। बड़ा ट्रेनिंग एरिया, शीशे की दीवारें, तेज़ रोशनी और ऐसा लेआउट जो कभी भीड़ जैसा नहीं लगता।",
+      "p2": "हम चीज़ें आसान रखते हैं: साफ़ फ़्लोर, मेंटेन मशीनें, ईमानदार फीस और ऐसे ट्रेनर जो डेस्क पर बैठने की जगह आपके साथ फ़्लोर पर रहते हैं।",
+      "p3": "चाहे जिम का पहला महीना हो या लिफ्टिंग का दसवाँ साल — आपको प्लान, फॉर्म की गाइडेंस और एक जैसा लक्ष्य रखने वाले लोग मिलेंगे।",
+      "amenitiesTitle": "अंदर की सुविधाएँ",
+      "amenities": [
+        "एयर-कूल्ड मेन ट्रेनिंग फ़्लोर",
+        "प्लेट-लोडेड स्ट्रेंथ सेक्शन",
+        "फ्री वेट और बेंच एरिया",
+        "कार्डियो और कंडीशनिंग ज़ोन",
+        "पर्सनल लॉकर",
+        "साफ़ वॉशरूम और चेंजिंग एरिया",
+        "म्यूज़िक सिस्टम और शीशे की दीवारें",
+        "पीने के पानी की सुविधा",
+        "लेडीज़ के लिए अलग टाइमिंग"
+      ],
+      "locationTitle": "पहुँचना आसान"
+    },
+    "membership": {
+      "eyebrow": "मेम्बरशिप",
+      "title": "प्लान चुनिए और आज से शुरू कीजिए",
+      "text": "हर प्लान में पूरा फ़्लोर, कार्डियो, हर मशीन की गाइडेंस और आपके लिए बना वर्कआउट प्लान शामिल है।",
+      "priceNote": "दिखाई गई फीस अंदाज़न है — चालू रेट कॉल या व्हाट्सएप पर कन्फ़र्म कर लें।",
+      "includesTitle": "हर प्लान में शामिल",
+      "includes": [
+        "पूरा जिम फ़्लोर और कार्डियो",
+        "आपके लक्ष्य के हिसाब से वर्कआउट प्लान",
+        "फ़्लोर पर फॉर्म करेक्शन",
+        "लॉकर और चेंजिंग रूम",
+        "हर महीने प्रोग्रेस चेक"
+      ],
+      "faqTitle": "आम सवाल",
+      "calcTitle": "फीस कैलकुलेटर",
+      "calcText": "प्लान और ऐड-ऑन चुनकर अपनी कुल फीस देखें।",
+      "planNames": {
+        "monthly": "मंथली",
+        "quarterly": "तीन महीने",
+        "yearly": "सालाना"
+      },
+      "planTags": {
+        "quarterly": "सबसे पॉपुलर",
+        "yearly": "सबसे किफ़ायती"
+      },
+      "planPerks": {
+        "monthly": [
+          "पूरा फ़्लोर एक्सेस",
+          "वर्कआउट प्लान",
+          "लॉकर"
+        ],
+        "quarterly": [
+          "मंथली की सारी सुविधाएँ",
+          "हर महीने प्रोग्रेस चेक",
+          "डाइट गाइडेंस"
+        ],
+        "yearly": [
+          "तीन महीने वाली सारी सुविधाएँ",
+          "2 पर्सनल ट्रेनिंग सेशन",
+          "सबसे कम मंथली रेट"
+        ]
+      }
+    },
+    "classes": {
+      "eyebrow": "ट्रेनिंग ऑप्शन",
+      "title": "अपने तरीके से ट्रेन कीजिए",
+      "text": "स्ट्रेंथ, कार्डियो, फंक्शनल, पर्सनल कोचिंग और अलग लेडीज़ टाइमिंग — सब एक ही मेम्बरशिप में।",
+      "items": {
+        "strength": {
+          "n": "स्ट्रेंथ ट्रेनिंग",
+          "d": "प्लेट-लोडेड मशीनें, फ्री वेट्स, स्क्वाट और बेंच स्टेशन — असली ताकत के लिए।",
+          "l": "सभी लेवल"
+        },
+        "cardio": {
+          "n": "कार्डियो और फैट लॉस",
+          "d": "ट्रेडमिल, साइकल और सर्किट — आपके फैट लॉस लक्ष्य के हिसाब से।",
+          "l": "बिगिनर फ्रेंडली"
+        },
+        "functional": {
+          "n": "फंक्शनल ट्रेनिंग",
+          "d": "मोबिलिटी, कोर और फुल-बॉडी सर्किट जिससे रोज़मर्रा की चाल आसान हो।",
+          "l": "सभी लेवल"
+        },
+        "personal": {
+          "n": "पर्सनल ट्रेनिंग",
+          "d": "एक-से-एक कोचिंग, अलग ट्रेनर, प्लान और हफ़्ते का रिव्यू।",
+          "l": "रिक्वेस्ट पर"
+        },
+        "ladies": {
+          "n": "लेडीज़ बैच",
+          "d": "आरामदायक अलग टाइमिंग और महिला-अनुकूल स्टाफ की गाइडेंस।",
+          "l": "अलग टाइमिंग"
+        },
+        "diet": {
+          "n": "डाइट गाइडेंस",
+          "d": "घर के खाने पर बने आसान डाइट प्लान, आपके बजट के हिसाब से।",
+          "l": "प्लान में शामिल"
+        }
+      },
+      "scheduleTitle": "रोज़ का समय"
+    },
+    "gallery": {
+      "eyebrow": "गैलरी",
+      "title": "Core Wave Gym के अंदर",
+      "text": "हमारे फ़्लोर, मशीनों और लॉकर एरिया की असली फ़ोटो। बड़ा देखने के लिए फ़ोटो पर टैप कीजिए।",
+      "close": "बंद करें",
+      "prev": "पिछली फ़ोटो",
+      "next": "अगली फ़ोटो",
+      "alts": {
+        "/assets/images/hero-main-hall.webp": "Core Wave Gym का मेन ट्रेनिंग फ़्लोर — स्ट्रेंथ मशीनें, बेंच और शीशे की दीवारें",
+        "/assets/images/hero-neon-entrance.webp": "Core Wave Gym का हरा नियॉन एंट्रेंस साइन, बारबेल और वेट प्लेट के साथ",
+        "/assets/images/hero-locker-hall.webp": "Core Wave Gym की लॉकर वॉल और खुला चेंजिंग एरिया",
+        "/assets/images/exterior-signage.webp": "भजनपुरा दिल्ली की मेन रोड पर Core Wave Gym का हरा नियॉन साइनबोर्ड",
+        "/assets/images/neon-wall.webp": "बारबेल और वेट प्लेट के साथ Core Wave नियॉन लोगो वॉल",
+        "/assets/images/gym-floor.webp": "स्ट्रेंथ मशीनों और शीशे की दीवारों वाला मेन ट्रेनिंग फ़्लोर",
+        "/assets/images/strength-machines.webp": "प्लेट-लोडेड स्ट्रेंथ मशीनें और लेग प्रेस सेक्शन",
+        "/assets/images/benches-area.webp": "Core Wave Gym का बेंच और डम्बल एरिया",
+        "/assets/images/locker-room.webp": "मेम्बर्स के लिए पर्सनल लॉकर और चेंजिंग एरिया",
+        "/assets/images/changing-room.webp": "साफ़ चेंजिंग रूम — पर्सनल लॉकर, बेंच और शीशे",
+        "/assets/images/ladies-zone.webp": "अलग लेडीज़ ज़ोन — हल्के डम्बल, स्पिन बाइक और योगा मैट",
+        "/assets/images/core-corner.webp": "ऐब्स और कोर कॉर्नर — डिक्लाइन बेंच, ऐब रोलर और पुल-अप स्टेशन"
+      }
+    },
+    "contact": {
+      "eyebrow": "संपर्क",
+      "title": "बात कीजिए या सीधे आ जाइए",
+      "text": "फ़ॉर्म भेजें, व्हाट्सएप करें या कॉल करें — हम उसी दिन जवाब देते हैं।",
+      "formTitle": "पूछताछ भेजें",
+      "name": "आपका नाम",
+      "phone": "मोबाइल नंबर",
+      "email": "ईमेल",
+      "service": "आपको क्या चाहिए?",
+      "message": "संदेश",
+      "send": "भेजें",
+      "sending": "भेज रहे हैं…",
+      "sentTitle": "धन्यवाद!",
+      "sentText": "आपकी पूछताछ हमें मिल गई है। हम जल्दी कॉल करेंगे।",
+      "waFallback": "व्हाट्सएप पर भेजें",
+      "services": {
+        "membership": "मेम्बरशिप पूछताछ",
+        "personal-training": "पर्सनल ट्रेनिंग",
+        "ladies-batch": "लेडीज़ बैच",
+        "general": "कुछ और"
+      },
+      "errors": {
+        "name": "कृपया अपना नाम लिखें (2–60 अक्षर)।",
+        "phone": "कृपया सही 10 अंकों का मोबाइल नंबर लिखें।",
+        "email": "कृपया सही ईमेल पता लिखें।",
+        "message": "कृपया छोटा संदेश लिखें (5–1000 अक्षर)।",
+        "failed": "अभी नहीं भेज पाए। कृपया व्हाट्सएप या कॉल करें।"
+      },
+      "hoursTitle": "खुलने का समय",
+      "reachTitle": "हम तक पहुँचें",
+      "otp": {
+        "title": "अपना ईमेल वेरिफाई करें",
+        "text": "हम आपको 6 अंकों का कोड ईमेल करेंगे। कोड डालकर ईमेल कन्फर्म करें, फिर फॉर्म भेजें।",
+        "send": "कोड भेजें",
+        "sending": "कोड भेज रहे हैं...",
+        "resend": "कोड फिर भेजें",
+        "sent": "कोड भेज दिया — इनबॉक्स (और स्पैम) देखें।",
+        "codeLabel": "6 अंकों का कोड",
+        "verify": "वेरिफाई करें",
+        "verifying": "जाँच हो रही है...",
+        "verified": "ईमेल वेरिफाई हो गया",
+        "badCode": "कोड गलत है या एक्सपायर हो गया। दोबारा कोशिश करें।",
+        "needEmail": "पहले सही ईमेल डालें।",
+        "needVerify": "भेजने से पहले ईमेल वेरिफाई करें।",
+        "failed": "कोड नहीं भेज पाए। WhatsApp पर मैसेज करें।"
+      }
+    },
+    "faqs": [
+      {
+        "q": "Core Wave Gym कहाँ है?",
+        "a": "613, मेन रोड, भजनपुरा — बैंक ऑफ बड़ौदा के ऊपर दूसरी मंज़िल, मेट्रो स्टेशन गेट नंबर 2 के पास।"
+      },
+      {
+        "q": "जॉइन करने से पहले ट्राय कर सकते हैं?",
+        "a": "जी हाँ। खुलने के समय आइए — फ्री ट्रायल सेशन और फ़्लोर टूर मिलेगा।"
+      },
+      {
+        "q": "लेडीज़ के लिए अलग टाइमिंग है?",
+        "a": "हाँ, आरामदायक अलग लेडीज़ टाइमिंग चलती है। मौजूदा स्लॉट के लिए कॉल कीजिए।"
+      },
+      {
+        "q": "डाइट प्लान मिलता है?",
+        "a": "हाँ, तीन महीने और सालाना प्लान में घर के खाने पर बनी डाइट गाइडेंस शामिल है।"
+      },
+      {
+        "q": "पर्सनल ट्रेनिंग उपलब्ध है?",
+        "a": "हाँ, रिक्वेस्ट पर एक-से-एक पर्सनल ट्रेनिंग अलग चार्ज पर उपलब्ध है।"
+      },
+      {
+        "q": "पेमेंट के तरीके क्या हैं?",
+        "a": "रिसेप्शन पर कैश, UPI और कार्ड स्वीकार किए जाते हैं।"
+      }
+    ],
+    "statLabels": {
+      "rating": "गूगल रेटिंग",
+      "equipment": "मशीनें और स्टेशन",
+      "hours": "रोज़ खुला",
+      "floor": "मंज़िल, मेन रोड"
+    },
+    "days": {
+      "mon": "सोमवार",
+      "tue": "मंगलवार",
+      "wed": "बुधवार",
+      "thu": "गुरुवार",
+      "fri": "शुक्रवार",
+      "sat": "शनिवार",
+      "sun": "रविवार"
+    },
+    "footer": {
+      "about": "Core Wave के साथ ताकत की लहर पर सवार हों — भजनपुरा, दिल्ली का साफ़, किफ़ायती और पूरी मशीनों वाला जिम।",
+      "pages": "पेज",
+      "contact": "संपर्क",
+      "rights": "सर्वाधिकार सुरक्षित।"
+    },
+    "tools": {
+      "bmiTitle": "BMI कैलकुलेटर",
+      "bmiText": "पाँच सेकंड में अपनी शुरुआत जानिए।",
+      "height": "लंबाई (सेमी)",
+      "weight": "वज़न (किग्रा)",
+      "calculate": "कैलकुलेट करें",
+      "cats": {
+        "under": "कम वज़न",
+        "healthy": "सही",
+        "over": "ज़्यादा वज़न",
+        "obese": "मोटापा"
+      },
+      "tips": {
+        "under": "स्ट्रेंथ और न्यूट्रिशन प्लान से हेल्दी वज़न बढ़ेगा।",
+        "healthy": "बढ़िया रेंज — स्ट्रेंथ और कंडीशनिंग से यहीं बने रहिए।",
+        "over": "कार्डियो और आसान डाइट प्लान से तीन महीने में फ़र्क दिखेगा।",
+        "obese": "बिगिनर फंक्शनल बैच और गाइडेड डाइट प्लान से शुरू कीजिए।"
+      },
+      "plan": "प्लान",
+      "ptSessions": "पर्सनल ट्रेनिंग सेशन",
+      "dietPlan": "डाइट प्लान जोड़ें",
+      "total": "कुल",
+      "effective": "असल मंथली"
+    },
+    "meta": {
+      "homeTitle": "Core Wave Gym भजनपुरा | दिल्ली 110053 का बेस्ट जिम",
+      "homeDesc": "Core Wave Gym, भजनपुरा दिल्ली — साफ़, किफ़ायती जिम, बढ़िया मशीनें, ट्रेनर और लेडीज़ बैच। सुबह 5 से रात 10:30 तक खुला। कॉल 8278140828।",
+      "aboutTitle": "Core Wave Gym के बारे में | भजनपुरा मेट्रो के पास जिम",
+      "aboutDesc": "Core Wave Gym भजनपुरा के अंदर: एयर-कूल्ड फ़्लोर, प्लेट-लोडेड स्ट्रेंथ सेक्शन, लॉकर, लेडीज़ टाइमिंग और सर्टिफाइड ट्रेनर।",
+      "membershipTitle": "भजनपुरा में जिम फीस | Core Wave Gym मेम्बरशिप",
+      "membershipDesc": "Core Wave Gym भजनपुरा, दिल्ली में मंथली, तीन महीने और सालाना मेम्बरशिप प्लान। फ्री ट्रायल सेशन, कोई छुपा चार्ज नहीं।",
+      "classesTitle": "स्ट्रेंथ, कार्डियो और लेडीज़ बैच | Core Wave Gym",
+      "classesDesc": "Core Wave Gym, भजनपुरा दिल्ली में स्ट्रेंथ ट्रेनिंग, कार्डियो, फंक्शनल ट्रेनिंग, पर्सनल कोचिंग और अलग लेडीज़ बैच।",
+      "galleryTitle": "फ़ोटो गैलरी | Core Wave Gym भजनपुरा, दिल्ली",
+      "galleryDesc": "Core Wave Gym, भजनपुरा दिल्ली के ट्रेनिंग फ़्लोर, मशीनों, बेंच और लॉकर रूम की असली फ़ोटो।",
+      "contactTitle": "Core Wave Gym भजनपुरा से संपर्क | कॉल 8278140828",
+      "contactDesc": "Core Wave Gym, 613 मेन रोड भजनपुरा, दिल्ली 110053 का पता, मैप, टाइमिंग और पूछताछ फ़ॉर्म। कॉल या व्हाट्सएप 8278140828।",
+      "offersTitle": "दिवाली और फेस्टिवल जिम ऑफर | कोर वेव जिम भजनपुरा",
+      "offersDesc": "कोर वेव जिम भजनपुरा, दिल्ली के चल रहे मेंबरशिप ऑफर और फेस्टिवल डील — लाइव काउंटडाउन के साथ।"
+    },
+    "offers": {
+      "days": "दिन",
+      "hours": "घंटे",
+      "mins": "मिनट",
+      "secs": "सेकंड",
+      "ended": "ऑफर खत्म",
+      "liveTitle": "चल रहे ऑफर",
+      "viewOffers": "ऑफर देखें",
+      "howTitle": "कैसे लें",
+      "howSteps": [
+        "कॉल या व्हाट्सऐप करके ऑफर का नाम बताएं",
+        "जिम आइए और फ्री ट्रायल सेशन कीजिए",
+        "टाइमर खत्म होने से पहले डिस्काउंट फीस जमा करें"
+      ]
+    }
+  },
+  "hg": {
+    "langName": "Hinglish",
+    "nav": {
+      "home": "Home",
+      "about": "Gym ke baare me",
+      "membership": "Membership",
+      "classes": "Training",
+      "gallery": "Gallery",
+      "contact": "Contact",
+      "offers": "Offers"
+    },
+    "common": {
+      "callNow": "Abhi call karein",
+      "whatsapp": "WhatsApp karein",
+      "getDirections": "Rasta dekhein",
+      "joinNow": "Abhi join karein",
+      "viewPlans": "Plans dekhein",
+      "openToday": "Aaj khula hai",
+      "readMore": "Aur padhein",
+      "month": "mahina",
+      "months": "mahine",
+      "perMonth": "per month",
+      "save": "Bachat"
+    },
+    "hero": {
+      "badge": "Bhajanpura, Delhi · Metro Gate No. 2",
+      "title": "Taakat ki wave par sawaar ho",
+      "titleAccent": "CORE WAVE ke saath",
+      "text": "Bank of Baroda ke upar 2nd floor par bada, saaf aur poori machines wala gym — strength, cardio, functional training aur personal coaching, subah 5 se raat 10:30 tak.",
+      "trust": "Google par {reviews} members ne {rating}★ diya hai"
+    },
+    "home": {
+      "whyEyebrow": "Kyun Core Wave",
+      "whyTitle": "Un logon ke liye jinko result chahiye",
+      "whyText": "Badhiya machines, imaandaar fees aur trainers jo aapki form par nazar rakhte hain.",
+      "features": [
+        {
+          "t": "Saaf-suthra floor",
+          "d": "Roz safai, sanitised machines aur locker ke saath saaf washroom."
+        },
+        {
+          "t": "Top-notch equipment",
+          "d": "Plate-loaded strength machines, free weights, bench aur cardio section."
+        },
+        {
+          "t": "Guide karne wale trainers",
+          "d": "Certified trainers har machine samjhate hain aur form theek karate hain."
+        },
+        {
+          "t": "Jeb par halka",
+          "d": "Bhajanpura aur Yamuna Vihar area me sabse achhi value."
+        },
+        {
+          "t": "Roz 17 ghante khula",
+          "d": "Subah 5:00 se raat 10:30 — kisi bhi shift me aaiye."
+        },
+        {
+          "t": "Metro ke paas",
+          "d": "Metro station gate no. 2, main road — ghar lautte waqt aa jaiye."
+        }
+      ],
+      "classesEyebrow": "Training",
+      "classesTitle": "Yahan aap kya-kya kar sakte hain",
+      "planEyebrow": "Membership",
+      "planTitle": "Aasan plans, koi hidden charge nahi",
+      "reviewEyebrow": "Google reviews",
+      "reviewTitle": "Members kya kehte hain",
+      "toolEyebrow": "Free tool",
+      "toolTitle": "Shuru karne se pehle apna BMI dekhein",
+      "ctaTitle": "Pehli workout hamari taraf se",
+      "ctaText": "Free trial session ke liye aaiye, floor dekhiye, trainers se miliye aur phir faisla kijiye.",
+      "hoursTitle": "Khulne ka time",
+      "areasEyebrow": "Aas-paas ke ilaake",
+      "areasTitle": "North East Delhi me aapke paas gym",
+      "areasText": "Core Wave Gym in ilaakon se sirf 5–10 minute door hai. Bhajanpura Metro Gate No. 2 ke bilkul saamne, 2nd floor par."
+    },
+    "about": {
+      "eyebrow": "Gym ke baare me",
+      "title": "Mohalle ka gym, bade gym ki machines",
+      "p1": "Core Wave Gym Bhajanpura ki main road par hai — metro station gate no. 2 ke bilkul paas aur Bank of Baroda ke upar. Bada training area, sheeshe ki deewarein, tez roshni aur aisa layout jo kabhi bheed jaisa nahi lagta.",
+      "p2": "Hum cheezein aasan rakhte hain: saaf floor, maintain machines, imaandaar fees aur trainers jo desk par baithne ki jagah aapke saath floor par rehte hain.",
+      "p3": "Chahe gym ka pehla mahina ho ya lifting ka dasva saal — aapko plan, form ki guidance aur ek jaisa lakshya rakhne wale log milenge.",
+      "amenitiesTitle": "Andar ki facilities",
+      "amenities": [
+        "Air-cooled main training floor",
+        "Plate-loaded strength section",
+        "Free weight aur bench area",
+        "Cardio aur conditioning zone",
+        "Personal lockers",
+        "Saaf washroom aur changing area",
+        "Music system aur mirror walls",
+        "Peene ke paani ki suvidha",
+        "Ladies ke liye alag timing"
+      ],
+      "locationTitle": "Pahunchna aasan"
+    },
+    "membership": {
+      "eyebrow": "Membership",
+      "title": "Plan chuniye aur aaj se shuru kijiye",
+      "text": "Har plan me poora floor, cardio, har machine ki guidance aur aapke liye bana workout plan shamil hai.",
+      "priceNote": "Dikhayi gayi fees andazan hai — chaalu rate call ya WhatsApp par confirm kar lein.",
+      "includesTitle": "Har plan me shamil",
+      "includes": [
+        "Poora gym floor aur cardio",
+        "Aapke goal ke hisaab se workout plan",
+        "Floor par form correction",
+        "Locker aur changing room",
+        "Har mahine progress check"
+      ],
+      "faqTitle": "Aam sawaal",
+      "calcTitle": "Fees calculator",
+      "calcText": "Plan aur add-on chunkar apni total fees dekhein.",
+      "planNames": {
+        "monthly": "Monthly",
+        "quarterly": "3 Mahine",
+        "yearly": "Saalana"
+      },
+      "planTags": {
+        "quarterly": "Sabse popular",
+        "yearly": "Sabse kifayati"
+      },
+      "planPerks": {
+        "monthly": [
+          "Poora floor access",
+          "Workout plan",
+          "Locker"
+        ],
+        "quarterly": [
+          "Monthly ki saari suvidha",
+          "Har mahine progress check",
+          "Diet guidance"
+        ],
+        "yearly": [
+          "3 mahine wali saari suvidha",
+          "2 personal training session",
+          "Sabse kam monthly rate"
+        ]
+      }
+    },
+    "classes": {
+      "eyebrow": "Training options",
+      "title": "Apne tarike se train kijiye",
+      "text": "Strength, cardio, functional, personal coaching aur alag ladies timing — sab ek hi membership me.",
+      "items": {
+        "strength": {
+          "n": "Strength training",
+          "d": "Plate-loaded machines, free weights, squat aur bench station — asli taakat ke liye.",
+          "l": "Sabhi levels"
+        },
+        "cardio": {
+          "n": "Cardio aur fat loss",
+          "d": "Treadmill, cycle aur circuits — aapke fat loss goal ke hisaab se.",
+          "l": "Beginner friendly"
+        },
+        "functional": {
+          "n": "Functional training",
+          "d": "Mobility, core aur full-body circuits jisse rozmarra ki chaal aasan ho.",
+          "l": "Sabhi levels"
+        },
+        "personal": {
+          "n": "Personal training",
+          "d": "One-to-one coaching, alag trainer, plan aur weekly review.",
+          "l": "Request par"
+        },
+        "ladies": {
+          "n": "Ladies batch",
+          "d": "Aaramdayak alag timing aur mahila-anukool staff ki guidance.",
+          "l": "Alag timing"
+        },
+        "diet": {
+          "n": "Diet guidance",
+          "d": "Ghar ke khane par bane aasan diet plan, aapke budget ke hisaab se.",
+          "l": "Plan me shamil"
+        }
+      },
+      "scheduleTitle": "Roz ka time"
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Core Wave Gym ke andar",
+      "text": "Hamare floor, machines aur locker area ki asli photos. Bada dekhne ke liye photo par tap kijiye.",
+      "close": "Band karein",
+      "prev": "Pichhli photo",
+      "next": "Agli photo",
+      "alts": {
+        "/assets/images/hero-main-hall.webp": "Core Wave Gym ka main training floor — strength machines, bench aur mirror walls",
+        "/assets/images/hero-neon-entrance.webp": "Core Wave Gym ka hara neon entrance sign, barbell aur weight plates ke saath",
+        "/assets/images/hero-locker-hall.webp": "Core Wave Gym ki locker wall aur khula changing area",
+        "/assets/images/exterior-signage.webp": "Bhajanpura Delhi ki main road par Core Wave Gym ka hara neon signboard",
+        "/assets/images/neon-wall.webp": "Barbell aur weight plates ke saath Core Wave neon logo wall",
+        "/assets/images/gym-floor.webp": "Strength machines aur mirror walls wala main training floor",
+        "/assets/images/strength-machines.webp": "Plate-loaded strength machines aur leg press section",
+        "/assets/images/benches-area.webp": "Core Wave Gym ka bench aur dumbbell area",
+        "/assets/images/locker-room.webp": "Members ke liye personal locker aur changing area",
+        "/assets/images/changing-room.webp": "Saaf changing room — personal locker, bench aur mirror",
+        "/assets/images/ladies-zone.webp": "Alag ladies zone — halke dumbbell, spin bike aur yoga mat",
+        "/assets/images/core-corner.webp": "Abs aur core corner — decline bench, ab roller aur pull-up station"
+      }
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Baat kijiye ya seedhe aa jaiye",
+      "text": "Form bhejein, WhatsApp karein ya call karein — hum usi din jawab dete hain.",
+      "formTitle": "Enquiry bhejein",
+      "name": "Aapka naam",
+      "phone": "Mobile number",
+      "email": "Email",
+      "service": "Aapko kya chahiye?",
+      "message": "Message",
+      "send": "Bhejein",
+      "sending": "Bhej rahe hain…",
+      "sentTitle": "Dhanyavaad!",
+      "sentText": "Aapki enquiry hum tak pahunch gayi hai. Hum jaldi call karenge.",
+      "waFallback": "WhatsApp par bhejein",
+      "services": {
+        "membership": "Membership enquiry",
+        "personal-training": "Personal training",
+        "ladies-batch": "Ladies batch",
+        "general": "Kuch aur"
+      },
+      "errors": {
+        "name": "Kripya apna naam likhein (2–60 letters).",
+        "phone": "Kripya sahi 10 digit mobile number likhein.",
+        "email": "Kripya sahi email likhein.",
+        "message": "Kripya chhota message likhein (5–1000 characters).",
+        "failed": "Abhi bhej nahi paye. Kripya WhatsApp ya call karein."
+      },
+      "hoursTitle": "Khulne ka time",
+      "reachTitle": "Hum tak pahunchein",
+      "otp": {
+        "title": "Email verify karein",
+        "text": "Hum aapko 6 digit ka code email karenge. Code daalkar email confirm karein, phir form bhejein.",
+        "send": "Code bhejein",
+        "sending": "Code bhej rahe hain...",
+        "resend": "Code dobara bhejein",
+        "sent": "Code bhej diya — inbox (aur spam) check karein.",
+        "codeLabel": "6 digit code",
+        "verify": "Verify karein",
+        "verifying": "Check ho raha hai...",
+        "verified": "Email verified",
+        "badCode": "Code galat ya expire ho gaya. Dobara try karein.",
+        "needEmail": "Pehle sahi email daalein.",
+        "needVerify": "Bhejne se pehle email verify karein.",
+        "failed": "Code nahi bhej paye. WhatsApp par message karein."
+      }
+    },
+    "faqs": [
+      {
+        "q": "Core Wave Gym kahan hai?",
+        "a": "613, Main Road, Bhajanpura — Bank of Baroda ke upar 2nd floor, metro station gate no. 2 ke paas."
+      },
+      {
+        "q": "Join karne se pehle try kar sakte hain?",
+        "a": "Ji haan. Khulne ke time aaiye — free trial session aur floor tour milega."
+      },
+      {
+        "q": "Ladies ke liye alag timing hai?",
+        "a": "Haan, aaramdayak alag ladies timing chalti hai. Current slot ke liye call kijiye."
+      },
+      {
+        "q": "Diet plan milta hai?",
+        "a": "Haan, 3 mahine aur saalana plan me ghar ke khane par bani diet guidance shamil hai."
+      },
+      {
+        "q": "Personal training available hai?",
+        "a": "Haan, request par one-to-one personal training alag charge par available hai."
+      },
+      {
+        "q": "Payment ke tarike kya hain?",
+        "a": "Reception par cash, UPI aur card accept kiye jaate hain."
+      }
+    ],
+    "statLabels": {
+      "rating": "Google rating",
+      "equipment": "Machines aur stations",
+      "hours": "Roz khula",
+      "floor": "Floor, main road"
+    },
+    "days": {
+      "mon": "Somvaar",
+      "tue": "Mangalvaar",
+      "wed": "Budhvaar",
+      "thu": "Guruvaar",
+      "fri": "Shukravaar",
+      "sat": "Shanivaar",
+      "sun": "Ravivaar"
+    },
+    "footer": {
+      "about": "Core Wave ke saath taakat ki wave par sawaar ho — Bhajanpura, Delhi ka saaf, kifayati aur poori machines wala gym.",
+      "pages": "Pages",
+      "contact": "Contact",
+      "rights": "Saare adhikar surakshit."
+    },
+    "tools": {
+      "bmiTitle": "BMI calculator",
+      "bmiText": "Paanch second me apni shuruaat jaaniye.",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "calculate": "Calculate karein",
+      "cats": {
+        "under": "Kam weight",
+        "healthy": "Sahi",
+        "over": "Zyada weight",
+        "obese": "Motapa"
+      },
+      "tips": {
+        "under": "Strength aur nutrition plan se healthy weight badhega.",
+        "healthy": "Badhiya range — strength aur conditioning se yahin bane rahiye.",
+        "over": "Cardio aur aasan diet plan se 3 mahine me farak dikhega.",
+        "obese": "Beginner functional batch aur guided diet plan se shuru kijiye."
+      },
+      "plan": "Plan",
+      "ptSessions": "Personal training sessions",
+      "dietPlan": "Diet plan jodein",
+      "total": "Total",
+      "effective": "Asli monthly"
+    },
+    "meta": {
+      "homeTitle": "Core Wave Gym Bhajanpura | Delhi 110053 ka Best Gym",
+      "homeDesc": "Core Wave Gym, Bhajanpura Delhi — saaf, kifayati gym, badhiya machines, trainers aur ladies batch. Subah 5 se raat 10:30 tak khula. Call 8278140828.",
+      "aboutTitle": "Core Wave Gym ke baare me | Bhajanpura Metro ke paas gym",
+      "aboutDesc": "Core Wave Gym Bhajanpura ke andar: air-cooled floor, plate-loaded strength section, lockers, ladies timing aur certified trainers.",
+      "membershipTitle": "Bhajanpura me gym fees | Core Wave Gym membership",
+      "membershipDesc": "Core Wave Gym Bhajanpura, Delhi me monthly, 3 mahine aur saalana membership plans. Free trial session, koi hidden charge nahi.",
+      "classesTitle": "Strength, cardio aur ladies batch | Core Wave Gym",
+      "classesDesc": "Core Wave Gym, Bhajanpura Delhi me strength training, cardio, functional training, personal coaching aur alag ladies batch.",
+      "galleryTitle": "Photo gallery | Core Wave Gym Bhajanpura, Delhi",
+      "galleryDesc": "Core Wave Gym, Bhajanpura Delhi ke training floor, machines, bench aur locker room ki asli photos.",
+      "contactTitle": "Core Wave Gym Bhajanpura se contact | Call 8278140828",
+      "contactDesc": "Core Wave Gym, 613 Main Road Bhajanpura, Delhi 110053 ka pata, map, timing aur enquiry form. Call ya WhatsApp 8278140828.",
+      "offersTitle": "Diwali aur Festival Gym Offers | Core Wave Gym Bhajanpura",
+      "offersDesc": "Core Wave Gym Bhajanpura ke chalu membership offers aur festival deals — live countdown ke sath."
+    },
+    "offers": {
+      "days": "Days",
+      "hours": "Ghante",
+      "mins": "Mins",
+      "secs": "Secs",
+      "ended": "Offer khatam",
+      "liveTitle": "Chalu offers",
+      "viewOffers": "Offers dekhein",
+      "howTitle": "Kaise le",
+      "howSteps": [
+        "Call ya WhatsApp karke offer ka naam bataiye",
+        "Gym aaiye aur free trial session kijiye",
+        "Timer khatam hone se pehle discount fees jama karein"
+      ]
+    }
+  }
+}
